@@ -25,11 +25,11 @@ Locally changes to the source files will be instantly* reflected in the app.
 #### Running unit tests
 - client/
 ```
-docker-compose --file docker-compose.dev.yml exec client-dev npm test
+docker-compose --file docker-compose.dev.yml run client-dev npm test
 ```
 - server/
 ```
-docker-compose --file docker-compose.dev.yml exec server-dev npm test
+docker-compose --file docker-compose.dev.yml run server-dev npm test
 ```
 
 #### Linting / formatting source code.
